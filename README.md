@@ -1,6 +1,6 @@
 # Live Demo
 
-[live demo](https://cheery-souffle-ac5d8e.netlify.app/)
+[live demo](https://crown-ecommerce-app.netlify.app/)
 
 # Getting Started with Create React App
 
