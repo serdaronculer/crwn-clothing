@@ -63,4 +63,21 @@ export const DirectoryItemContainer = styled.div`
   &:last-child {
     margin-left: 7.5px;
   }
+  
+  @media screen and (max-width: 800px) {
+    height: 200px;
+  }
+`;
+
+
+export const ContentTitle = styled.span`
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 22px;
+  color: #4a4a4a;
+`;
+
+export const ContentSubtitle = styled.span`
+  font-weight: lighter;
+  font-size: 16px;
 `;

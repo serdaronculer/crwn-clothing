@@ -7,6 +7,7 @@ import {
   Price,
   Name,
   Footer,
+  AddButton
 } from "./product-card.styles";
 
 const ProductCard = ({ product }) => {
@@ -21,12 +22,12 @@ const ProductCard = ({ product }) => {
         <Name>{name}</Name>
         <Price>{price}</Price>
       </Footer>
-      <Button
+      <AddButton
         onClick={addProductToCart}
         buttonType={BUTTON_TYPES_CLASSES.inverted}
       >
         Add to card
-      </Button>
+      </AddButton>
     </ProductCardContainer>
   );
 };
