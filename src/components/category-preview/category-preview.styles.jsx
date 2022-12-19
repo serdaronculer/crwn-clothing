@@ -19,6 +19,7 @@ export const NavLink = styled(Link)`
 
 export const Preview = styled.div`
   display: flex;
+  gap: 15px;
   justify-content: space-between;
   @media screen and (max-width: 800px) {
     display: grid;
